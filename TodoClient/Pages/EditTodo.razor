@@ -1,0 +1,38 @@
+﻿@page "/edittodo/{Id}"
+@using TodoContracts.Models;
+@using TodoClient.Services;
+@inject TodoService todoService;
+@inject NavigationManager Navigation;
+<!--//TODO Why is the page not bringing up the todoitem-->
+
+<EditForm Model= "Todo" OnSubmit="@SubmitForm">
+    <div class="form-group">
+        <label>Name</label>
+        <InputText id="name" name="Name" value="@Todo.Name"/>
+    </div>
+    <div class="form-group">
+        <label>Complete</label>
+        <InputCheckbox id="complete" class="form-control" @bind-Value="Todo.Complete" onchange="@todoService.ToggleComplete"></InputCheckbox>
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+</EditForm>
+
+
+@code {
+
+    [Parameter]
+    public Guid Id { get; set; }
+
+    public Todo Todo = new Todo();
+
+    protected override async void OnInitialized()
+    {
+        Todo = await todoService.Get(Id);
+    }
+
+    private void SubmitForm()
+    {
+        todoService.Update(Todo);
+        Navigation.NavigateTo("todolist");
+    }
+}

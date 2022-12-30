@@ -1,0 +1,12 @@
+C:\Users\Austin Rice\Projects\TodoCrud\TodoContracts\bin\Debug\net6.0\TodoContracts.deps.json
+C:\Users\Austin Rice\Projects\TodoCrud\TodoContracts\bin\Debug\net6.0\TodoContracts.dll
+C:\Users\Austin Rice\Projects\TodoCrud\TodoContracts\bin\Debug\net6.0\TodoContracts.pdb
+C:\Users\Austin Rice\Projects\TodoCrud\TodoContracts\obj\Debug\net6.0\TodoContracts.csproj.AssemblyReference.cache
+C:\Users\Austin Rice\Projects\TodoCrud\TodoContracts\obj\Debug\net6.0\TodoContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Austin Rice\Projects\TodoCrud\TodoContracts\obj\Debug\net6.0\TodoContracts.AssemblyInfoInputs.cache
+C:\Users\Austin Rice\Projects\TodoCrud\TodoContracts\obj\Debug\net6.0\TodoContracts.AssemblyInfo.cs
+C:\Users\Austin Rice\Projects\TodoCrud\TodoContracts\obj\Debug\net6.0\TodoContracts.csproj.CoreCompileInputs.cache
+C:\Users\Austin Rice\Projects\TodoCrud\TodoContracts\obj\Debug\net6.0\TodoContracts.dll
+C:\Users\Austin Rice\Projects\TodoCrud\TodoContracts\obj\Debug\net6.0\refint\TodoContracts.dll
+C:\Users\Austin Rice\Projects\TodoCrud\TodoContracts\obj\Debug\net6.0\TodoContracts.pdb
+C:\Users\Austin Rice\Projects\TodoCrud\TodoContracts\obj\Debug\net6.0\ref\TodoContracts.dll
